@@ -10,13 +10,28 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: 50px;
+}
+.times {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 180px;
 }
 .timer {
   font-family: Orbitron;
   /* font-family: "Roboto Mono", monospace; */
   font-size: 180px;
+  line-height: 180px;
   color: #ff9200;
+}
+.mil-sec {
+  font-family: Orbitron;
+  /* font-family: "Roboto Mono", monospace; */
+  font-size: 80px;
+  line-height: 80px;
+  color: #ff9200;
+  margin-bottom: 13px;
 }
 .buttons {
   display: flex;
